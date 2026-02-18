@@ -125,3 +125,16 @@ header {
 
 /* --- FOOTER --- */
 footer { text-align: center; padding: 2rem; background: var(--primary-color); color: white; margin-top: 2rem; }
+
+.profile-container {
+    margin-bottom: 20px; /* Space between photo and name */
+}
+
+.profile-pic {
+    width: 180px;        /* You can change this number to make photo bigger/smaller */
+    height: 180px;       /* Keep width and height same for a perfect circle */
+    border-radius: 50%;  /* This makes the image circular */
+    object-fit: cover;   /* This prevents the image from looking stretched */
+    border: 5px solid var(--accent-color); /* Adds a colored ring around your photo */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Adds a subtle shadow */
+}
